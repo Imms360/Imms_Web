@@ -5,7 +5,7 @@ import webbrowser
 import os
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
-VIDEO_PATH = os.path.join(APP_DIR, "Vid.mp4")
+VIDEO_PATH = "Vid.mp4"
 
 async def open_url(url):
     webbrowser.open(url)
@@ -27,7 +27,7 @@ def concept_video_player(width=560, height=315, autoplay=False):
         content=ftv.Video(
             width=width,
             height=height,
-            playlist=[ftv.VideoMedia(VIDEO_PATH)],
+            playlist=[ftv.VideoMedia(resource=VIDEO_PATH)],
             autoplay=autoplay,
             aspect_ratio=16 / 9,
             fit=ft.BoxFit.CONTAIN,
