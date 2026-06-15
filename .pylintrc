@@ -1,0 +1,14 @@
+[MASTER]
+init-hook=
+    import sys
+    sys.path.insert(0, '.venv/Lib/site-packages')
+
+load-plugins=
+
+disable=
+    C0111, # missing-docstring
+    R0903, # too-few-public-methods
+    W0212, # protected-access
+
+[FORMAT]
+max-line-length=100

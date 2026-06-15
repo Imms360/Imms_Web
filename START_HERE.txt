@@ -1,0 +1,54 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                    COSMIC PORTFOLIO - QUICK START GUIDE                         ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+YOUR VENV IS WORKING ✓
+All packages are installed and ready!
+
+PROBLEM: A Flet extension in VS Code is trying to auto-install packages
+
+═══════════════════════════════════════════════════════════════════════════════════
+
+SOLUTION #1 - USE WORKSPACE FILE (Recommended)
+──────────────────────────────────────────────────────────────────────────────────
+1. Double-click: cosmic-portfolio.code-workspace
+   (This opens VS Code with special settings that disable auto-install)
+2. Select Interpreter: Ctrl+Shift+P → "Python: Select Interpreter"
+3. Run: Press F5 or go to Run menu
+
+SOLUTION #2 - DISABLE FLET EXTENSION
+──────────────────────────────────────────────────────────────────────────────────
+In VS Code:
+1. Press Ctrl+Shift+X (Extensions)
+2. Search: "flet"
+3. Find any Flet extension
+4. Click gear icon → "Disable (Workspace)"
+5. Restart VS Code
+
+SOLUTION #3 - USE THE LAUNCHER (Always Works - No VS Code Needed)
+──────────────────────────────────────────────────────────────────────────────────
+Simply double-click: start-app.bat
+(This runs your app perfectly without any VS Code involvement)
+
+═══════════════════════════════════════════════════════════════════════════════════
+
+WHAT'S INSTALLED:
+  ✓ flet 0.85.3
+  ✓ flet-desktop 0.85.3
+  ✓ All dependencies
+
+WHERE TO FIND THINGS:
+  - Virtual Environment: .\.venv\
+  - Python Executable: .\.venv\Scripts\python.exe
+  - Requirements: requirements.txt
+  - Configuration: .vscode\settings.json
+
+═══════════════════════════════════════════════════════════════════════════════════
+
+STILL HAVING ISSUES? Try this:
+  1. Close VS Code completely
+  2. Delete the .vscode folder
+  3. Double-click start-app.bat to run the app
+  4. If that works, re-open VS Code and use Solution #1 above
+
+═══════════════════════════════════════════════════════════════════════════════════

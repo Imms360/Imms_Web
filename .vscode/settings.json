@@ -1,0 +1,20 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+    "python.linting.enabled": false,
+    "python.terminal.executeInFileDir": true,
+    "python.terminal.executeInTerminal": true,
+    "python.analysis.extraPaths": ["${workspaceFolder}\\.venv\\Lib\\site-packages"],
+    "[python]": {
+        "defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe"
+    },
+    "python.formatting.provider": "none",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": false,
+    "python.linting.mypyEnabled": false,
+    "python.envFile": "${workspaceFolder}/.env",
+    "flet.pythonPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+    "flet.enableAutoInstall": false,
+    "flet.disableAutoSetup": true,
+    "flet.disablePyPILookup": true,
+    "extensions.ignoreRecommendations": true
+}

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cosmic-portfolio"
+version = "1.0.0"
+description = "Cosmic Portfolio - Immanuel's Engineering Portfolio"
+requires-python = ">=3.10"
+dependencies = [
+    "flet>=0.85.3",
+    "flet-desktop>=0.85.3",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 100
+
+[tool.pylint]
+max-line-length = 100
